@@ -1,36 +1,183 @@
 <! DOCTYPE>
 <html>
-<head>
-   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>CHAT GPT - Dominando o assistente virtual</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-   <style>
-      body{
-         display: flex;
-         flex-direction: column; /* Alinha itens em coluna */
-         justify-content: center;
-         align-center: center;
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>CHAT GPT - Dominando o assistente virtual</title>
+
+    <style>
+      @font-face {
+        font-family: PlayfairDisplay-VariableFont_wght;
+        src: url("assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
       }
-      .ads{
-         width:100%;
-         height: 400px;
+      @font-face {
+        font-family: PlayfairDisplay-Italic-VariableFont_wght;
+        src: url("assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
       }
-      .red{background-color:red}
-      .cyan{background-color:cyan}
-      .yellow{background-color:yellow}
-      .white{background-color:#fff}
-      .blue{background-color:blue}
-   </style>
-</head>
+      body {
+        display: flex;
+        flex-direction: column; /* Alinha itens em coluna */
+        justify-content: center;
+        align-items: center;
+        background-color: #09090a;
+        margin: 0;
+        padding: 0;
+      }
+      .ads {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      .ads-content {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        color: white;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        padding: 25px;
+      }
+      .ads-content h1 {
+        font-family: Montserrat, sans-serif;
+      }
+      .ads-content p {
+        width: 100%;
+        font-size: 1.2rem;
+        font-family: Montserrat, sans-serif;
+        color: white;
+      }
+      .ads-content ol li {
+        width: 100%;
+        font-size: 1.2rem;
+        font-family: Montserrat, sans-serif;
+        color: white;
+      }
+      img {
+        height: 90%;
+        border-radius: 50%;
+      }
+      .btnComprar{
+        background-color: #ffffff69;
+        position: fixed;
+        left: 0;
+        color: #09090a;
+        font-family: Montserrat, sans-serif;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        border-radius: 50%;padding: 50px;
+        bottom: 0;
+        font-size: 1rem;
+        text-decoration: none;
+      }
+      .attribution {
+        position: fixed;
+        background-color: #ffffff69;
+        color: #09090a;
+        font-family: Montserrat, sans-serif;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        border-radius: 50px;
+        bottom: 0;
+        font-size: 1rem;
+        text-decoration: none;
+      }
+    </style>
+  </head>
   <body>
-    <div class="ads red"></div>
-    <div class="ads cyan"></div>
-    <div class="ads yellow"></div>
-    <div class="ads white"></div>
-    <div class="ads blue"></div>
-  </body>
+    <div class="ads">
+      <div class="ads-content">
+        <h1>O que é o chat GPT?</h1>
+        <p>
+          Chat GPT é uma <b>inteligência artificial</b> desenvolvida para ajudar
+          as pessoas a obter <b>informações e respostas</b> para suas perguntas.
+          É como ter um assistente virtual que pode responder a quase todas as
+          perguntas. Ele chegou a marcar de
+          <b>100 Milhões de usuários EM 2 MESES!</b> muito mais rápido do que
+          qualquer plataforma antes na história.
+        </p>
+      </div>
+      <img src="./assets/image/Chat-GPT.jpg" alt="" srcset="" />
+    </div>
+    <div class="ads">
+      <img src="./assets/image/MKTEbook1ChatGPT.webp" alt="" srcset="" />
+      <div class="ads-content">
+        <h1>
+          Revolucione o seu Mundo Digital com "ChatGPT: Dominando o Assistente
+          Virtual"
+        </h1>
+        <p>
+          Você está cansado de perder tempo com tarefas digitais monótonas? Acha
+          frustrante navegar pela internet tentando encontrar respostas para
+          perguntas complicadas? Deseja acelerar a eficiência da sua vida
+          digital, mas não sabe por onde começar? Apresentamos o "ChatGPT:
+          Dominando o Assistente Virtual" - sua chave definitiva para
+          desbloquear a produtividade ilimitada.
+        </p>
+      </div>
+    </div>
+    <div class="ads">
+      <div class="ads-content">
+        <h1>
+          ABRA CAMINHO PARA UM NOVO HORIZONTE COM O POTENCIAL DO CHAT GPT.
+        </h1>
+        <h2>
+          DESCUBRA UM CURSO AVANÇADO QUE O ORIENTA PARA ESTA TRANSFORMAÇÃO.
+        </h2>
+        <p>
+          Não deixe de acompanhar a evolução da inteligência artificial.
+          Prepare-se para se destacar no cenário profissional adquirindo as
+          competências essenciais.
+        </p>
+      </div>
+      <img src="./assets/image/futuro1.png" alt="" srcset="" />
+    </div>
+    <div class="ads">
+      <img src="./assets/image/futuro5.png" alt="" srcset="" />
+
+      <div class="ads-content">
+        <h1>🚀 Dominando o Assistente Virtual</h1>
+        <ol>
+          <li>Eficiência Acelerada: Automatize tarefas, economize tempo.</li>
+          <li>Aconselhamento 24/7: Informação ilimitada ao seu dispor.</li>
+          <li>
+            Produtividade Maximizada: Organização e lembretes na ponta dos
+            dedos.
+          </li>
+          <li>
+            Assistente Multitarefa: Gerenciamento de e-mails, buscas web e
+            redação.
+          </li>
+          <li>Simplicidade: Interface amigável e intuitiva.</li>
+        </ol>
+        <h3>Conquiste o futuro digital AGORA! Clique em "COMPRAR". ⏰💰👍</h3>
+      </div>
+    </div>
+    
+  <div class="btnComprar">
+    <a rel="stylesheet" href="https://hotmart.com/pt-br/marketplace/produtos/chat-gpt-dominando-o-assistente-virtual/R84332497A?ref=J93514589J">Compre aqui!</a>  
+  </div> 
+   </body>
+  <div class="attribution">
+    Coded by_<a href="https://github.com/markusknauer1">Markus Knauer</a>.
+  </div>
 </html>
